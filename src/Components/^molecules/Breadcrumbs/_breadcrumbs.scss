@@ -1,0 +1,15 @@
+.breadcrumbs {
+    &__item {
+        position: relative;
+        display: inline-block;
+
+        &:not(:last-child) {
+            &:after {
+                content: '';
+                position: absolute;
+                
+                right: 0;
+            }
+        }
+    }
+}

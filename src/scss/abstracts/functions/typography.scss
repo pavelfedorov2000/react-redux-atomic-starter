@@ -1,0 +1,19 @@
+@function dcalc($value) {
+    @return ($value) + 0.0001;
+}
+
+@function em($value) {
+    @if $value != 0 {
+        @return ($value) * 1em + 0.0001;
+    } @else {
+        @return 0;
+    }
+}
+
+@function rem($value) {
+    @if $value != 0 {
+        @return ($value/$fz) * 1rem + 0.0001;
+    } @else {
+        @return ($value/$fz);
+    }
+}

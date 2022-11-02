@@ -1,0 +1,18 @@
+:root {
+    --yellow: #ffcc48;
+    --hover-yellow: #ffd873;
+    --black: #020818;
+    --dark: #131414;
+    --dark-gray: #4d5560;
+    --gray-second: #535353;
+    --gray: #95a0af;
+    --light-gray: #d7dded;
+    --green: #43a141;
+    --red: #e73656;
+    --line-color: #ddd;
+    --light-blue: #ecf1ff;
+
+    --mob-padding: 1.2rem;
+    --gap: 20rem;
+    --container: calc(100vw - var(--gap) * 4);
+}

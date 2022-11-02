@@ -1,0 +1,18 @@
+.slider {
+    &-default {
+        &---xs {
+            flex-wrap: nowrap;
+            overflow: auto;
+
+            &::-webkit-scrollbar {
+                width: 0 !important;
+                height: 0 !important;
+                -webkit-appearance: none;
+            }
+
+            > * {
+                flex-shrink: 0;
+            }
+        }
+    }
+}
