@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-family: $ff;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--color-default);
+
+    &._lock {
+        overflow-y: hidden;
+    }
+
+    /* &::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 0;
+        height: 0;
+    } */
+    //&::-webkit-scrollbar-thumb {}
+}

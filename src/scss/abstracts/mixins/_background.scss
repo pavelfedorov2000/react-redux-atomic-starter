@@ -1,5 +1,5 @@
-@mixin bg {
-    background-position: center center;
+@mixin bg($size: cover) {
+    background-position: center;
+    background-size: $size;
     background-repeat: no-repeat;
-    background-size: cover;
 }

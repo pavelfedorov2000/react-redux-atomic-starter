@@ -1,0 +1,10 @@
+.counter-list {
+    counter-reset: num;
+
+    li {
+        &:before {
+            content: counter(num);
+            counter-increment: num;
+        }
+    }
+}

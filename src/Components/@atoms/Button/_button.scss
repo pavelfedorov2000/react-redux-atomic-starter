@@ -1,0 +1,59 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    //padding: 1.55rem;
+    //background-color: var(--yellow);
+    text-align: center;
+    transition: $transition background-color;
+
+    @media (any-hover: hover) {
+        &:hover {
+            //background-color: var(--hover-yellow);
+        }
+    }
+
+    &[disabled] {
+        //background-color: var(--gray);
+        pointer-events: none;
+    }
+
+    &--style {
+        &_bg {
+            &-black {
+                color: #fff;
+
+                @media (any-hover: hover) {
+                    &:hover {}
+                }
+
+                /* &:active,
+                &:focus {
+                    
+                } */
+            }
+
+            &-white {
+                background-color: #fff;
+
+                @media (any-hover: hover) {
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    &--with {
+        &_border {
+            background-color: transparent;
+
+            @media (any-hover: hover) {
+                &:hover {}
+            }
+        }
+
+        &_radius {}
+    }
+}

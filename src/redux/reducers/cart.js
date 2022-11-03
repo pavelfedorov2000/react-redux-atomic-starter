@@ -10,8 +10,6 @@ const cart = (state = initialState, action) => {
             return {
                 ...state,
                 items: newItems,
-                totalCount,
-                totalPrice,
             };
         }
 

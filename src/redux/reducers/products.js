@@ -1,6 +1,6 @@
 const initialState = {
     products: [],
-    //isLoaded: false, // для загрузки
+    isLoaded: false, // для загрузки
 };
 
 const products = (state = initialState, action) => {

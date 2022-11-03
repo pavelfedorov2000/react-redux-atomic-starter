@@ -1,4 +1,6 @@
 .social {
+    $this: &;
+
     &__list {
         display: flex;
     }

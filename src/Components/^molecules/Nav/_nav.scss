@@ -1,9 +1,7 @@
 .nav {
-    &__item {
+    $this: &;
 
-    }
+    &__item {}
 
-    &__link {
-        
-    }
+    &__link {}
 }

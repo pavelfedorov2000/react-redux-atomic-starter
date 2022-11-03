@@ -1,4 +1,6 @@
 .breadcrumbs {
+    $this: &;
+
     &__item {
         position: relative;
         display: inline-block;
@@ -7,7 +9,7 @@
             &:after {
                 content: '';
                 position: absolute;
-                
+
                 right: 0;
             }
         }
